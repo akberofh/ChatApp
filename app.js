@@ -46,6 +46,12 @@ io.on("connection", (socket) => {
     });
 });
 
+app.get("/", (req, res) => {
+    res.json({
+        message: "Welcome",
+    });
+});
+
 server.listen("3002", () => {
     console.log("running on 3002 port");
 });
