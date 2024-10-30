@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "concurrently \"node app.js\"  \"node Comment.js\""
+    "start": "node app"
   },
   "keywords": [],
   "author": "",
@@ -13,7 +13,6 @@
   "description": "",
   "dependencies": {
     "body-parser": "^1.20.3",
-    "concurrently": "^9.0.1",
     "cookie-parser": "^1.4.7",
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
